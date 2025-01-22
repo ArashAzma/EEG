@@ -15,7 +15,7 @@ The notebook uses **Librosa** for feature extraction and applies data augmentati
 
 ![alt text](charts/image.png)
 ### Dataset Splitting
-The dataset is divided into training, validation, and test sets to tune hyperparameters and evaluate final performance.
+The dataset is divided into training, validation, and test sets to tune hyperparameters and evaluate final performance.****
 
 ---
 
@@ -24,6 +24,9 @@ The dataset is divided into training, validation, and test sets to tune hyperpar
 1. **Deep CNN**: Initial complex model with poor performance.
 2. **Simple Linear Model**: Less complex but inadequate results.
 3. **Simpler CNN**: Reduced layers, yielding better results.
+
+### Final Model:
+- A **CNN and LSTM hybrid model** which uses CNN as feature extraction and uses the time series feature of the dataset with LSTM
 
 ### Optimizations:
 - **Learning Rate Scheduling**: Warm scheduling improved training.
